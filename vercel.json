@@ -1,23 +1,15 @@
 {
    "version": 2,
    "builds": [
-      { "src": "index.js", "use": "@now/node" }
+      { "src": "index.js", "use": "@now/node" },
+      { "src": "api/welcome.js", "use": "@now/node" },
+      { "src": "api/questions.js", "use": "@now/node" },
+      { "src": "api/results.js", "use": "@now/node" }
    ],
-   "functions": {
-      "welcome": {
-         "handler": "/public/views/welcome.html"
-      },
-      "questions": {
-         "handler": "/public/views/questions.html"
-      },
-      "results": {
-         "handler": "/public/views/results.html"
-      }
-   },
    "routes": [
-      { "src": "/welcome", "dest": "/api/welcome" },
-      { "src": "/questions", "dest": "/index.js" },
-      { "src": "/results", "dest": "/api/results" },
+      { "src": "/api/welcome", "dest": "api/welcome.js" },
+      { "src": "/api/questions", "dest": "api/questions.js" },
+      { "src": "/api/results", "dest": "api/results.js" },
       { "src": "/(.*)", "dest": "/index.js" }
    ]
 }

@@ -16,11 +16,11 @@ app.get('/welcome', (req, res)=>{
 });
 
 app.get('/questions', (req, res)=>{
-   res.sendFile('questions.html');
+   res.sendFile('public/views/questions.html', { root: __dirname });
 });
 
 app.get('/results', (req, res)=>{
-  res.sendFile('./views/results.html', { root: __dirname });
+  res.sendFile('public/views/results.html', { root: __dirname });
 });
 
 app.get('*', (req, res)=>{
