@@ -1,10 +1,10 @@
 {
    "version": 2,
-   "routes": [
-      { "src": "/PGv30b-z", "destination": "index.js" },
-      { "src": "/welcome", "destination": "index.js" },
-      { "src": "/questions", "destination": "index.js" },
-      { "src": "/results", "destination": "index.js" },
-      { "src": "/(.*)", "destination": "index.js" }
-  ]
+   "rewrites": [
+      {
+         "source": "/(.*)",
+         "destination": "index.js"
+
+      }
+      ]
 }
