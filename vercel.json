@@ -3,7 +3,21 @@
    "builds": [
       { "src": "index.js", "use": "@now/node" }
    ],
+   "functions": {
+      "welcome": {
+         "handler": "/public/views/welcome.html"
+      },
+      "questions": {
+         "handler": "/public/views/questions.html"
+      },
+      "results": {
+         "handler": "/public/views/results.html"
+      }
+   },
    "routes": [
+      { "src": "/welcome", "dest": "/api/welcome" },
+      { "src": "/questions", "dest": "/index.js" },
+      { "src": "/results", "dest": "/api/results" },
       { "src": "/(.*)", "dest": "/index.js" }
    ]
 }
