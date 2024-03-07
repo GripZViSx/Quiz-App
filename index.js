@@ -11,7 +11,8 @@ app.get('/', (req, res, next) => {
   res.redirect('/welcome')
 });
 app.get('/welcome', (req, res)=>{
-   res.sendFile('welcome.html', { root: __dirname });
+   /*res.sendFile('welcome.html', { root: __dirname });*/
+   res.send("Hello");
 });
 
 app.get('/questions', (req, res)=>{
