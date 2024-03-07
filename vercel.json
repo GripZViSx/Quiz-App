@@ -1,10 +1,10 @@
 {
    "version": 2,
    "routes": [
-      { "src": "/PGv30b-z", "dest": "/request_files/questions.json" },
-      { "src": "/welcome", "dest": "/welcome" },
-      { "src": "/questions", "dest": "/questions" },
-      { "src": "/results", "dest": "/results" },
-      { "src": "/(.*)", "dest": "/welcome" }
+      { "src": "/PGv30b-z", "dest": "/index.js" },
+      { "src": "/welcome", "dest": "/index.js" },
+      { "src": "/questions", "dest": "/index.js" },
+      { "src": "/results", "dest": "/index.js" },
+      { "src": "/(.*)", "dest": "/index.js" }
   ]
 }
