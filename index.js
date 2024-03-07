@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/PGv30b-z', (req, res) => { 
-  res.sendFile('./request_files/questions.json', { root: __dirname });
+  res.sendFile('questions.json', { root: __dirname });
 });
 
 app.use(express.static('public'));

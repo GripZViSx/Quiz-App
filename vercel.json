@@ -2,15 +2,15 @@
    "version": 2,
    "builds": [
       {
-         "src": "server.js",
+         "src": "index.js",
          "use": "@now/node-server"
     }
   ],
    "routes": [
-      { "src": "/api/data", "dest": "/server.js" },
-      { "src": "/home", "dest": "/server.js" },
-      { "src": "/about", "dest": "/server.js" },
-      { "src": "/contacts", "dest": "/server.js" },
-      { "src": "/(.*)", "dest": "/server.js" }
+      { "src": "/PGv30b-z", "dest": "/request_files/questions.json" },
+      { "src": "/welcome", "dest": "/welcome" },
+      { "src": "/questions", "dest": "/questions" },
+      { "src": "/results", "dest": "/results" },
+      { "src": "/(.*)", "dest": "/welcome" }
   ]
 }
