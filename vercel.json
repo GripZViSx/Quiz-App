@@ -1,11 +1,5 @@
 {
    "version": 2,
-   "builds": [
-      {
-         "src": "index.js",
-         "use": "@now/node-server"
-    }
-  ],
    "routes": [
       { "src": "/PGv30b-z", "dest": "/request_files/questions.json" },
       { "src": "/welcome", "dest": "/welcome" },
