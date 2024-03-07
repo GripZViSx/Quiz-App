@@ -16,7 +16,7 @@ app.get('/welcome', (req, res)=>{
 });
 
 app.get('/questions', (req, res)=>{
-   res.sendFile('questions.html', { root: `views/${__dirname}` });
+   res.sendFile('questions.html', { root: `views` });
 });
 
 app.get('/results', (req, res)=>{
