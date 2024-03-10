@@ -10,7 +10,8 @@ def jsonData():
 
 @app.route("/")
 def home():
-   return redirect(url_for("welcome"))
+   return "Hello World"
+   #return redirect(url_for("welcome"))
    
 @app.route("/welcome")
 def welcome():
