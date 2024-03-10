@@ -13,7 +13,7 @@ Back-end → Python (Flask)
 
 1. It's usage is quiet simple, there's an [questions.json](https://github.com/GripZViSx/Quiz-App/blob/main/api/request_files/questions.json) file in `api/request_files`. It contains questions, options, answers. 
 
-2. One of the routes in back-end serves this file. Then my client-side javascript file fetches if using `fetch()` .
+2. One of the routes in back-end serves this file. Then client-side javascript file fetches if using `fetch()` .
 
 3. The data is then sorted accordingly and applied on containers/elements in `/questions`.
 
