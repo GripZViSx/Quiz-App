@@ -137,3 +137,12 @@ function submitClick() {
 }
 
 $('#submit').on('click', submitClick());
+
+$(document).ready(()=>{
+   $('#options').on('keydown', function(e) {
+      if (e.key === 'Enter') {
+         e.preventDefault();
+         submitClick();
+      }
+      });
+})
