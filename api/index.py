@@ -1,4 +1,4 @@
-from flask import Flask, redirect, url_for, jsonify
+from flask import Flask, redirect, url_for, jsonify, render_template
 
 with open("./api/request_files/questions.json") as f:
    data = f.read()
@@ -10,8 +10,7 @@ def jsonData():
 
 @app.route("/")
 def home():
-   return "Hello World"
-   #return redirect(url_for("welcome"))
+   return redirect(url_for("welcome"))
    
 @app.route("/welcome")
 def welcome():
