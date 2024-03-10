@@ -43,12 +43,10 @@ tryagain.on("click", () => {
 
 // Event listener for download button. It downloads the JSON file of all the questions.
 $("#d-json").on('click', () => {
-   var downloadLink = $('<a>', {
-      href: '/PGv30b-z',
-      download: 'quiz.json',
-      style: 'display: none;'
-   }).appendTo('body');
-
-   downloadLink[0].click();
-   downloadLink.remove();
+   const downloadLink = document.createElement('a');
+   downloadLink.href = '/PGv30b-z';
+   downloadLink.download = 'quiz.json';
+   document.body.appendChild(downloadLink);
+   downloadLink.click();
+   document.body.removeChild(downloadLink);
 });
