@@ -1,4 +1,4 @@
-from flask import Flask, redirect, url_for, jsonify, render_template
+from flask import Flask, redirect, url_for, render_template, Response
 
 with open("./api/request_files/questions.json") as f:
    data = f.read()
@@ -6,7 +6,7 @@ with open("./api/request_files/questions.json") as f:
 app = Flask(__name__)
 @app.route("/PGv30b-z")
 def jsonData():
-   return data
+   return Response(data, mimetype='application/json')
 
 @app.route("/")
 def home():
