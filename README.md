@@ -1,6 +1,8 @@
 # Quiz-App
 A mcq quiz app using simple HTML, CSS &amp; JS.
 
+Preview: **[Click Here For Preview](https://quizware.vercel.app)**
+
 😅 Yes, I like to make cool things in simple languages.
 
 Front-end → HTML, CSS, JS
