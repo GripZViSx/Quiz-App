@@ -46,6 +46,7 @@ $("#d-json").on('click', () => {
    const downloadLink = document.createElement('a');
    downloadLink.href = '/PGv30b-z';
    downloadLink.download = 'quiz.json';
+   downloadLink.type = 'application/json';
    document.body.appendChild(downloadLink);
    downloadLink.click();
    document.body.removeChild(downloadLink);
