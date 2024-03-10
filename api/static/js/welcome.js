@@ -34,7 +34,7 @@ async function inTextField() {
  enterYourName.innerHTML = "Enter Your Name Below"
  formCreate.id = "formOfInput"
 formCreate.autocomplete = "off";
-formCreate.onsubmit = submitClicked;
+formCreate.addEventListener('submit', submitClicked());
  textInput.id = 'textInput';
  textInput.type = "text";
  textInput.name = "textInput";
