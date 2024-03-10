@@ -1,0 +1,220 @@
+{
+  "questions": [
+    {
+      "question": "What is the speed of light in a vacuum?",
+      "option1": "301,000 kilometers per second",
+      "option2": "299,792 kilometers per second",
+      "option3": "299,458 kilometers per second",
+      "option4": "300,000 kilometers per second",
+      "answer": "299,792 kilometers per second"
+    },
+    {
+      "question": "Which element has the highest melting point?",
+      "option1": "Platinum",
+      "option2": "Titanium",
+      "option3": "Tungsten",
+      "option4": "Carbon",
+      "answer": "Tungsten"
+    },
+    {
+      "question": "Who is considered the father of modern physics?",
+      "option1": "Isaac Newton",
+      "option2": "Galileo Galilei",
+      "option3": "Albert Einstein",
+      "option4": "Niels Bohr",
+      "answer": "Albert Einstein"
+    },
+    {
+      "question": "In which year was the periodic table first published?",
+      "option1": "1882",
+      "option2": "1868",
+      "option3": "1875",
+      "option4": "1869",
+      "answer": "1869"
+    },
+    {
+      "question": "Which novel opens with the line 'Call me Ishmael'?",
+      "option1": "Moby-Dick",
+      "option2": "Pride and Prejudice",
+      "option3": "To Kill a Mockingbird",
+      "option4": "Simon",
+      "answer": "Moby-Dick"
+    },
+    {
+      "question": "What is the primary component of Jupiter's atmosphere?",
+      "option1": "Oxygen",
+      "option2": "Ammonia",
+      "option3": "Hydrogen",
+      "option4": "Helium",
+      "answer": "Hydrogen"
+    },
+    {
+      "question": "Who developed the theory of relativity?",
+      "option1": "Stephen Hawking",
+      "option2": "Albert Einstein",
+      "option3": "Max Planck",
+      "option4": "Werner Heisenberg",
+      "answer": "Albert Einstein"
+    },
+    {
+      "question": "Which country is the largest by land area?",
+      "option1": "Russia",
+      "option2": "United States",
+      "option3": "Canada",
+      "option4": "India",
+      "answer": "Russia"
+    },
+    {
+      "question": "In which century did the Renaissance period begin?",
+      "option1": "15th century",
+      "option2": "16th century",
+      "option3": "14th century",
+      "option4": "17th century",
+      "answer": "14th century"
+    },
+    {
+      "question": "What is the smallest prime number?",
+      "option1": "1",
+      "option2": "2",
+      "option3": "3",
+      "option4": "5",
+      "answer": "2"
+    },
+    {
+      "question": "Who wrote the philosophical work 'Meditations'?",
+      "option1": "Plato",
+      "option2": "Seneca the Younger",
+      "option3": "Aristotle",
+      "option4": "Marcus Aurelius",
+      "answer": "Marcus Aurelius"
+    },
+    {
+      "question": "Which chemical element has the symbol 'I' on the periodic table?",
+      "option1": "Iron",
+      "option2": "Iodine",
+      "option3": "Indium",
+      "option4": "Iridium",
+      "answer": "Iodine"
+    },
+    {
+      "question": "What is the largest moon in our solar system?",
+      "option1": "Io",
+      "option2": "Callisto",
+      "option3": "Ganymede",
+      "option4": "Phobos",
+      "answer": "Ganymede"
+    },
+    {
+      "question": "Who composed the 'Moonlight Sonata'?",
+      "option1": "Ludwig van Beethoven",
+      "option2": "Franz Schubert",
+      "option3": "Wolfgang Amadeus Mozart",
+      "option4": "Johann Sebastian Bach",
+      "answer": "Ludwig van Beethoven"
+    },
+    {
+      "question": "What is the boiling point of water in Fahrenheit?",
+      "option1": "220°F",
+      "option2": "212°F",
+      "option3": "180°F",
+      "option4": "200°F",
+      "answer": "212°F"
+    },
+    {
+      "question": "Which planet has the most significant tilt in its rotational axis?",
+      "option1": "Mars",
+      "option2": "Neptune",
+      "option3": "Venus",
+      "option4": "Uranus",
+      "answer": "Uranus"
+    },
+    {
+      "question": "Who formulated the laws of thermodynamics?",
+      "option1": "Isaac Newton",
+      "option2": "James Clerk Maxwell",
+      "option3": "Rudolf Clausius",
+      "option4": "Lord Kelvin",
+      "answer": "Rudolf Clausius"
+    },
+    {
+      "question": "In which year did the Industrial Revolution begin in England?",
+      "option1": "1785",
+      "option2": "1850",
+      "option3": "1760",
+      "option4": "1820",
+      "answer": "1760"
+    },
+    {
+      "question": "What is the molecular formula of adrenaline?",
+      "option1": "C5H5N5",
+      "option2": "C9H13NO3",
+      "option3": "C4H10O",
+      "option4": "C6H12O6",
+      "answer": "C9H13NO3"
+    },
+    {
+      "question": "Which element is a noble gas and commonly used in lighting?",
+      "option1": "Argon",
+      "option2": "Krypton",
+      "option3": "Xenon",
+      "option4": "Neon",
+      "answer": "Neon"
+    },
+    {
+      "question": "Who proposed the theory of continental drift?",
+      "option1": "James Hutton",
+      "option2": "Charles Darwin",
+      "option3": "Alfred Wegener",
+      "option4": "Louis Agassiz",
+      "answer": "Alfred Wegener"
+    },
+    {
+      "question": "What is the SI unit of electric current?",
+      "option1": "Ampere",
+      "option2": "Watt",
+      "option3": "Ohm",
+      "option4": "Volt",
+      "answer": "Ampere"
+    },
+    {
+      "question": "Which philosopher wrote 'Beyond Good and Evil'?",
+      "option1": "Plato",
+      "option2": "Aristotle",
+      "option3": "Friedrich Nietzsche",
+      "option4": "Socrates",
+      "answer": "Friedrich Nietzsche"
+    },
+    {
+      "question": "What is the main component of natural gas?",
+      "option1": "Butane",
+      "option2": "Methane",
+      "option3": "Propane",
+      "option4": "Ethane",
+      "answer": "Methane"
+    },
+    {
+      "question": "Who discovered penicillin?",
+      "option1": "Louis Pasteur",
+      "option2": "Joseph Lister",
+      "option3": "Paul Dirac",
+      "option4": "Alexander Fleming",
+      "answer": "Alexander Fleming"
+    },
+    {
+      "question": "In which year did the Spanish Civil War begin?",
+      "option1": "1936",
+      "option2": "1940",
+      "option3": "1942",
+      "option4": "1938",
+      "answer": "1936"
+    },
+    {
+      "question": "Which famous scientist developed the three laws of motion?",
+      "option1": "Niels Bohr",
+      "option2": "Galileo Galilei",
+      "option3": "Albert Einstein",
+      "option4": "Isaac Newton",
+      "answer": "Isaac Newton"
+    }
+  ]
+}
