@@ -1,6 +1,6 @@
 from flask import Flask, redirect, url_for, jsonify
 
-with open("./request_files/questions.json") as f:
+with open("./api/request_files/questions.json") as f:
    data = f.read()
 
 app = Flask(__name__)
