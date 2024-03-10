@@ -6,7 +6,7 @@ with open("./api/request_files/questions.json") as f:
 app = Flask(__name__)
 @app.route("/PGv30b-z")
 def jsonData():
-   return jsonify(data)
+   return data
 
 @app.route("/")
 def home():
