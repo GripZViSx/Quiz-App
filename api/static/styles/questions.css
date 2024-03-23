@@ -58,6 +58,10 @@ body {
  height: 60%;
  color: var(--forth);
  position: relative;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
  transition: opacity ease 0.5 0.1;
 }
 
