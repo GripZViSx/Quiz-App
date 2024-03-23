@@ -55,9 +55,10 @@ body {
  border-radius: 1.5rem;
  padding: 2vh 2vw;
  width: 80%;
+ height: 60%;
  color: var(--forth);
  position: relative;
- transition: opacity ease 0.5 0.1, width ease 0.5s;
+ transition: opacity ease 0.5 0.1;
 }
 
 .container::before {
