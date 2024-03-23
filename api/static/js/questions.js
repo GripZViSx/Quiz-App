@@ -136,4 +136,4 @@ function submitClick() {
    }, 1500)
 }
 
-$('#submit').on('click', submitClick());
+$('#submit').on('click', submitClick);
