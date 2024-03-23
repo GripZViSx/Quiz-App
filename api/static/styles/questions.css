@@ -62,7 +62,7 @@ body {
  flex-direction: column;
  justify-content: center;
  align-items: center;
- transition: opacity ease 0.5 0.1;
+ transition: opacity ease 0.5s 0.1s;
 }
 
 .container::before {
